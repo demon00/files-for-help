@@ -1,0 +1,52 @@
+.wrapper-middle-side{
+	top: -100px;
+	height: 800px;
+	background-position: right bottom; 
+}
+
+.wrapper-inside{
+  height: 800px;
+}
+
+.wrapper-inside::before{
+	height: 200%;
+	top: -600px;
+}
+
+.main_information{
+	padding-top: 200px;
+}
+
+.works__wrapper::before{
+	top: -1300px;
+}
+
+.main_button_works{
+	top: 30px;
+}
+
+.inside__angle-down{
+	top: 80px;
+}
+
+.footer{
+	height: 650px;
+	height: auto;
+}
+
+.footer__contact{
+	padding-top: 50px;
+}
+
+.footer__social{
+	margin-top: 50px;
+}
+
+.footer__button{
+	margin-top: 50px;	
+}
+
+.footer__Rights{
+	margin-top: 80px;	
+	padding-bottom: 50px;
+}

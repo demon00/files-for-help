@@ -1,0 +1,116 @@
+.nav__ul{
+	background: #fff;
+	width: 100vw;
+	height: 240px;
+	padding: 0;
+	display: none;
+	position: relative;
+}
+
+.nav__li{
+	width: 100vw;
+}
+
+.nav__a{
+	display: block;
+	width: 100vw;
+}
+
+.nav__a:hover::after {
+	opacity: 1;
+	transform: translate( -50%, -50%) scaleX(1);
+}
+
+.nav__a::after {
+	width: 3.7em;
+	left: 50%;
+}
+
+.nav__krest{
+	display: block;
+  position: absolute;
+  right: 60px;
+  top: 15px;
+}
+
+.wrapper-middle-side{
+	height: 850px;
+}
+
+.wrapper-inside{
+	height: 650px;
+}
+
+
+.works__wrapp-center{
+	max-width: 640px;
+}
+
+.work-one{
+	max-width: 620px;
+	height: 350px;
+}
+
+.whov-first{
+	max-width: 620px;
+	height: 350px;
+}
+
+.work-two{
+	max-width: 620px;
+	height: 350px;
+}
+
+.whov-second{
+	max-width: 620px;
+	height: 350px;
+}
+
+.work-three{
+	max-width: 620px;
+	height: 350px;
+}
+
+.whov-third{
+	max-width: 620px;
+	height: 350px;
+}
+
+.work-four{
+	width: 300px;
+	height: 500px;
+}
+
+.whov-fourth{
+	width: 300px;
+	height: 500px;
+}
+
+.work-five{
+	width: 300px;
+	height: 500px;
+}
+
+.whov-fifth{
+	width: 300px;
+	height: 500px;
+}
+
+.footer__mail_sect{
+  width: 100%;
+}
+
+.footer__tel{
+	padding-top: 20px;
+	width: 100%;
+  clear: both;
+  padding-left: 0;
+}
+
+.footer__Rights{
+	margin-top: 50px;
+}
+
+.footer__social_link .fa{
+	margin-top: 15px;
+}
